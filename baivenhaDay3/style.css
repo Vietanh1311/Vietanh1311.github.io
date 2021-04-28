@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red1
+{
+    width: 400px;
+    height: 400px;
+    background-color:red;
+    color:red;
+}
+.blue1
+{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    color:blue;
+}
+.green1
+{
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    color:green;
+}
+#hinh1
+{
+    margin-left: 450px;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    margin-top: 50px;
+    
+}
+#hinh3
+{
+    margin-left: 450px;
+    display: flex;
+    flex-wrap:wrap-reverse;
+
+}
+#hinh4
+{
+    margin-left:  15px;
+}
+.red2
+{
+    width: 400px;
+    height: 400px;
+    background-color:red;
+    color:red;
+}
+.blue2
+{
+    width: 400px;
+    height: 400px;
+    background-color:blue;
+    color:blue;
+}
+.green2
+{
+    width: 400px;
+    height: 400px;
+    background-color:green;
+    color:green;
+}
+#hinh5
+{
+    display: flex;
+    margin-left:  180px;;
+}
+#hinh6
+{
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 20px;
+    
+}
+#so2
+{
+    margin-left:15px;
+}
+#so3
+{
+    margin-left: 15px;
+}
