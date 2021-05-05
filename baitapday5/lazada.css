@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container
+{
+    margin-top: 200px;
+    width: 100%;
+    height: 450px;
+    /* background-color:aquamarine; */
+    color: #999999;
+}
+#Menu
+{
+    width: 280px;
+    height:100%;
+    background-color:white;
+    margin-left: 230px;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    line-height: 27px;
+    color: #757575;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-width: 0.3px;
+    border-style: solid;
+    border-color:#757575;
+    position: relative;
+   
+    
+}
+
+.menu-list
+{
+    
+    font-family: Roboto;
+    font-size: 18px;
+    list-style-type: none;
+    
+    
+
+}
+.menu-list a
+{
+    color: #757575;
+    direction: none;
+    line-height: 2;
+    text-decoration: none;
+    
+
+}
+.submenu
+{
+    position: absolute;
+    /* padding-top: 25px; */
+    display:none;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-width: 2px;
+    background-color:white;
+    list-style-type: none;
+}
+.submenu li {
+    
+    padding-left: 10px;
+    line-height: 2;
+    
+    
+    
+}
+
+.menu-list li:hover .submenu
+{
+   display:block;
+   width: 280px;
+   height: 450px;
+   margin-left: 269px;
+   /* background-color: #757575;
+   color: orangered; */
+   border-width: 0.3px;
+    border-style: solid;
+    border-color:#757575;
+   
+}
+.menu-list a:hover 
+{
+    color:orangered;
+    
+    
+}
+li:hover
+{
+    color: orangered;
+    background-color:#ECEFF1
+}
+
+.menu-list i 
+{
+    display: none;
+}
+.menu-list li:hover .icon
+{
+    display: inline;
+    float: right;
+}
+.icon
+{
+    /* color: orangered; */
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.submenu2
+{
+    position: absolute;
+    /* padding-top: 25px; */
+    display:none;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-width: 2px;
+    background-color:white;
+    list-style-type: none;
+}
+.submenu li:hover .submenu2
+{
+   display:block;
+   width: 280px;
+   height: 451px;
+   margin-left: 259.2px;
+   /* background-color: #757575;
+   color: orangered; */
+   border-width: 0.3px;
+    border-style: solid;
+    border-color:#757575;
+}
+.submenu i 
+{
+    display: none;
+}
+.submenu li:hover .icon2
+{
+    display: inline;
+    float: right;
+}
+.icon2
+{
+    color: orangered;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+
+
