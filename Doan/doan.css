@@ -1,0 +1,545 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container
+{
+    line-height: 1.4;
+    font-size: 14px;
+    color: #050505;
+    background: #fff;
+    font-family: 'Quicksand', sans-serif !important;
+}
+#navigation
+{
+    width: 100%;
+    height: 50px;
+    background-color:#BFCACB;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+
+}
+#logo img
+{
+    width: 158px;
+    height: 40px;
+    object-fit: cover;
+    /* margin-top:10px; */
+
+}
+.menu
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+}
+
+.menulist
+{
+    display: flex;
+    margin: 0 8px;
+    
+}
+.menulist li{
+    
+    list-style-type: none;
+    font-size: .95rem;
+    text-align: center;
+    
+    
+}
+.menulist li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #231F20;
+    margin: 0 25px 0 0;
+    transition: all 0.45s;
+    
+}
+.menulist li a:hover
+{
+    color: #e47307;
+    
+}
+
+
+.last-navigation
+{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+}
+.last-navigation a
+{
+    text-decoration: none;
+    color: #231F20;
+    
+}
+.last-navigation a:hover
+{
+    text-decoration: none;
+    color: #231F20;
+    
+}
+.last-items{
+    display: flex;   
+}
+.icon
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: #231F20;
+}
+.submenu
+{
+    position: absolute;
+    padding-top:5px;
+    display:none;
+    direction:relative;
+    
+    /* visibility: hidden; day cung la the lam bien mat*/
+}
+.submenu li {
+    background-color:#ffffff;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #dddfe2;
+}
+.menulist li:hover .submenu
+{
+   display:block;
+}
+
+.caret
+{
+    float: right;
+}
+
+.img1 img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.submenu2
+{
+    position: absolute;
+    margin-top: -77px;
+    left:100%;
+    display:none;
+    
+    
+    /* visibility: hidden; day cung la the lam bien mat*/
+}
+.submenu2 li {
+    background-color:#ffffff;
+    border: 2px solid #dddfe2;
+    padding: 5px 10px 5px 10px;
+}
+.submenu li:hover .submenu2
+{
+   display:block;
+}
+.submenu3
+{
+    position: absolute;
+    margin-top: -119px;
+    left:100%;
+    display:none;
+    
+    
+    /* visibility: hidden; day cung la the lam bien mat*/
+}
+.submenu3 li {
+    background-color:#ffffff;
+    border: 2px solid #dddfe2;
+    padding: 5px 10px 5px 10px;
+}
+.submenu li:hover .submenu3
+{
+   display:block;
+}
+.img2
+{
+    margin-top:-6px;
+    width: 100%;
+    display:flex; 
+}
+.img21
+{
+    width: 33.3%;
+}
+.img21 img
+{
+    width: 100%;
+    object-fit: cover;
+}
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+/* figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+} */
+.img21 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 2s ease-in-out;
+	transition: 6s ease-in-out;
+}
+.img21 figure:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.1);
+}
+#head 
+{
+    text-align: center;
+    margin-top:  35px;
+    font-size: 35px;
+    color:#231F20;
+    
+}
+.product
+{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom: 70px;
+    
+}
+
+.product-1
+{
+    display: flex;
+    
+    justify-content:space-evenly;
+    margin-top:30px;
+    padding-top:20px;
+}
+.product img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
+.product img:hover
+{
+    transform:scale(1.1);
+    transition: all 1.5s;
+}
+.product a
+{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight:30px;
+    color:black;
+    font-size: 17px;
+    font-weight:100px;
+    transition: all 0.45s;
+}
+.name
+{
+    margin-top: 5px;
+    text-align: center;
+}
+.product a:hover
+{
+    
+    color:#e47307;
+    text-decoration:block;   
+}
+.all-products
+{
+    width: 240px;
+    height:50px;    
+    background-color:black;
+    color:#f2f2f4;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 12px;
+    border: 2px solid black;
+    border-radius: 2px;
+    
+
+}
+.all-products:hover
+{
+    background-color:white;
+    border: 2px solid black;
+    transition: all 0.45s;
+    
+}
+.all-products a
+{
+    color: #e47307;;
+    font-size:18px;
+
+}
+
+.seach 
+{
+    background-color:#f2f2f4;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.icon-1
+{
+    font-size : 20px;
+    margin-right: 10px;
+}
+
+#username
+{
+    margin-top: 12px;
+    width: 500px;
+    height:40px;
+    padding-left: 15px;
+}
+#username:focus {
+    outline: none;
+    border-color: #231F20;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #231F20;
+    padding-left: 15px;
+    border-radius:5 px;
+}
+.The-Journal
+{
+    margin-top: 70px;
+    width: 100%;
+    height:600px;
+    padding: 20px 0;
+}
+.The-Journal-container
+{
+    width: 82%;
+    height:85%;
+    margin:auto;
+    
+}
+.The-Journal-title
+{
+    width: 100%;
+    height:10%;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    color: #231F20;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-2
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color:#f4f7fa;
+    border-style: solid;
+    border-width:2px;
+    border-color:#231F20;
+    color: #231F20;;
+    text-align: center;
+    padding-top: 5px;
+}
+.The-Journal-content
+{
+    width: 100%;
+    height:100%;
+    margin: auto;
+    margin-top:15px;
+    display: flex;
+    justify-content:space-between;   
+    
+}
+.The-Journal-items
+{
+    background-color: transparent;
+    max-width: 31.5%;
+    height: 100%;
+    flex: 0 0 33.3%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    
+    
+    
+}
+.The-Journal-items a
+{
+    text-decoration: none;
+    color: #231F20;
+    font-family: 'Quicksand', sans-serif ;
+    
+}
+.The-Journal-items-content
+{
+   width: 100%;
+   height: 90%;
+   
+}
+.The-Journal-items-content img
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+    height: 60%;
+    
+}
+.The-Journal-center
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5e5e5e;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.route-title
+{
+    padding-left: 10px ;
+}
+.The-Journal-items:hover
+{
+    transform:scale(1.03);
+    transition: all 2s;
+}
+.time 
+{
+    padding-right: 10px;
+}
+
+
+.profile
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    background-color:#f2f2f4;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:16px;
+    /* line-height:1px; */
+}
+.information
+{
+    margin-top:40px;
+    line-height:2;
+    color:#231F20;
+    
+}
+.information li
+{
+    list-style-type: none;
+    
+}
+.made-products 
+{
+    margin-top:40px;
+    line-height:2;
+    color:#231F20;
+}
+.made-products li 
+{
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+}
+.made-products li a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color:#231F20;
+}
+.support
+{
+    margin-top:40px;
+    line-height:2;
+    text-align:center;  
+}
+.support li a {
+    list-style-type: none;
+    text-decoration: none;
+    color:#231F20;
+}
+.support li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.icon123
+{
+    font-size:  45px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.design img
+{
+  margin-top:55px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius:3px;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+
+hr
+{
+    align-items: center;
+    /* border-bottom: 0.1px solid #fbfbfb; */
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    background-color:#dadde2;
+    border: 1px solid #dddfe2;
+
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: #0084ff;
+
+  }
+  .ci 
+  {
+      font-size:43px;
+      padding-top: 10px;
+      padding-left: 9px;
+      color:white;
+      
+  }
