@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="template.html :: header('Get by id')">
+</head>
+
+<body>
+
+    <h1>Tìm kiếm</h1>
+
+    <header th:insert="template.html :: topmenu"> </header>
+
+    <div class="container">
+
+        <form action="#" th:action="@{/getbyid}" th:object="${idRequest}" method="post">
+            <input type="text" placeholder="Nhap id" th:field="*{id}" /><br><br>
+            <button type="submit">Tìm kiếm</button>
+        </form>
+        <br>
+        <p>Không tìm thấy</p>
+    </div>
+
+    <header th:replace="template.html :: footer"> </header>
+</body>
+
+</html>
