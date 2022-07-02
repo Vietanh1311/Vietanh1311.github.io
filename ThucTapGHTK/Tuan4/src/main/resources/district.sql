@@ -1,0 +1,10 @@
+insert into district (id, code, name) values (1, '0456-0458', 'RU');
+insert into district (id, code, name) values (2, '53346-1329', 'ID');
+insert into district (id, code, name) values (3, '21749-523', 'CL');
+insert into district (id, code, name) values (4, '0065-0395', 'PT');
+insert into district (id, code, name) values (5, '0562-7806', 'MT');
+insert into district (id, code, name) values (6, '62007-105', 'CN');
+insert into district (id, code, name) values (7, '54868-5944', 'CN');
+insert into district (id, code, name) values (8, '0135-0552', 'AO');
+insert into district (id, code, name) values (9, '68828-117', 'YE');
+insert into district (id, code, name) values (10, '58370-6001', 'CN');
